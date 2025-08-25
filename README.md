@@ -15,8 +15,28 @@ The dashboard provides actionable insights into business performance, branch ope
 
 ## Files in Repository
 - `Hypermarket Dashboard.pbix` → Power BI report file.  
-- `Hypermarket.sql` → SQL database creation and data insertion scripts.  
+- `Hyper_Market.bak` → Backup of the SQL database.  
+- `SQLQuery Data Insertion.sql` → Inserts realistic data into tables.  
+- `SQLQuery2 Database and Table Creation.sql` → Creates the database and tables.  
+- `SQLQuery4 Database Edits.sql` → Modifies the database structure if needed.  
 - `sales.png`, `orders.png`, `employee.png`, `stock.png` → Dashboard screenshots.
+
+---
+
+## How to Use
+1. **Set up the SQL database** – choose one method:
+   - Restore `Hyper_Market.bak` in your SQL Server, **or**
+   - Run the queries in order:
+     1. `SQLQuery2 Database and Table Creation.sql` → Creates database and tables  
+     2. `SQLQuery Data Insertion.sql` → Inserts all data  
+     3. `SQLQuery4 Database Edits.sql` → Applies final edits
+
+2. **Open Power BI report**  
+   - Open `Hypermarket Dashboard.pbix` in **Power BI Desktop**.  
+   - Connect to your SQL database if you recreated it using queries.
+
+3. **Explore dashboard pages interactively**  
+   - Sales, Orders, Employee, and Stock pages.
 
 ---
 
@@ -36,11 +56,12 @@ The dashboard provides actionable insights into business performance, branch ope
 
 ---
 
-## How to Use
-1. Open `Hypermarket Dashboard.pbix` in **Power BI Desktop**.  
-2. Explore each page interactively to analyze sales, orders, employee, and inventory data.  
-3. Optionally, run `Hypermarket.sql` in a SQL environment to recreate the database and connect Power BI to it.
+## Skills Demonstrated
+- SQL database design, table relationships, and views  
+- Data insertion and management with realistic hypermarket datasets  
+- Power BI data modeling, DAX measures, and interactive dashboards  
+- Business insights visualization for sales, orders, HR, and inventory  
 
 ---
 
-## Skills Demonstrate
+Created as part of a **data analysis portfolio** to demonstrate SQL and Power BI expertise.
