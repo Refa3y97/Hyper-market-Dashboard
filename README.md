@@ -9,7 +9,8 @@ The dashboard provides actionable insights into business performance, branch ope
 - **Sales Overview** → Total sales, branch-wise performance, and category insights.  
 - **Orders Analysis** → Tracks order volumes, details, and regional distribution.  
 - **Employee Insights** → Shows staff count, managers, and branch-wise employee distribution.  
-- **Inventory Management** → Monitors product stock levels, categories, and availability.
+- **Inventory Management** → Monitors product stock levels, categories, and availability.  
+- **Database Relationships** → Visual representation of table relationships in the SQL database.
 
 ---
 
@@ -19,24 +20,7 @@ The dashboard provides actionable insights into business performance, branch ope
 - `SQLQuery Data Insertion.sql` → Inserts realistic data into tables.  
 - `SQLQuery2 Database and Table Creation.sql` → Creates the database and tables.  
 - `SQLQuery4 Database Edits.sql` → Modifies the database structure if needed.  
-- `sales.png`, `orders.png`, `employee.png`, `stock.png` → Dashboard screenshots.
-
----
-
-## How to Use
-1. **Set up the SQL database** – choose one method:
-   - Restore `Hyper_Market.bak` in your SQL Server, **or**
-   - Run the queries in order:
-     1. `SQLQuery2 Database and Table Creation.sql` → Creates database and tables  
-     2. `SQLQuery Data Insertion.sql` → Inserts all data  
-     3. `SQLQuery4 Database Edits.sql` → Applies final edits
-
-2. **Open Power BI report**  
-   - Open `Hypermarket Dashboard.pbix` in **Power BI Desktop**.  
-   - Connect to your SQL database if you recreated it using queries.
-
-3. **Explore dashboard pages interactively**  
-   - Sales, Orders, Employee, and Stock pages.
+- `sales.png`, `orders.png`, `employee.png`, `stock.png`, `relationships.png` → Dashboard screenshots.
 
 ---
 
@@ -53,6 +37,9 @@ The dashboard provides actionable insights into business performance, branch ope
 
 ### Stock
 ![Stock](stock.png)
+
+### Relationships
+![Relationships](relationships.png)
 
 ---
 
