@@ -1,51 +1,46 @@
-Hypermarket Dashboard
+# Hypermarket Dashboard
 
-This Power BI project visualizes key operations of a hypermarket, including sales, orders, employee distribution, and inventory management.
-The dashboard provides actionable insights across branches, departments, products, and staff performance.
+This Power BI project visualizes hypermarket operations, covering sales, orders, employees, and inventory.  
+The dashboard provides actionable insights into business performance, branch operations, and product management.
 
-Dashboard Highlights
+---
 
-Sales Overview → Total sales, branch-wise performance, and category insights.
+## Dashboard Highlights
+- **Sales Overview** → Total sales, branch-wise performance, and category insights.  
+- **Orders Analysis** → Tracks order volumes, details, and regional distribution.  
+- **Employee Insights** → Shows staff count, managers, and branch-wise employee distribution.  
+- **Inventory Management** → Monitors product stock levels, categories, and availability.
 
-Orders Analysis → Order volumes, order details, and regional distribution.
+---
 
-Employee Insights → Staff count, manager assignments, and branch employee distribution.
+## Files in Repository
+- `Hypermarket Dashboard.pbix` → Power BI report file.  
+- `Hypermarket.sql` → SQL database creation and data insertion scripts.  
+- `sales.png`, `orders.png`, `employee.png`, `stock.png` → Dashboard screenshots.
 
-Inventory Management → Product stock levels, category breakdowns, and availability trends.
+---
 
-Files in Repository
+## Screenshots
 
-Hypermarket Dashboard.pbix → Power BI report file.
+### Sales
+![Sales](sales.png)
 
-HypermarketData.sql → SQL database creation and data insertion script.
+### Orders
+![Orders](orders.png)
 
-sales.png, orders.png, employee.png, stock.png → Dashboard screenshots.
+### Employee
+![Employee](employee.png)
 
-Dashboard Screenshots
-Sales
+### Stock
+![Stock](stock.png)
 
-Orders
+---
 
-Employee
+## How to Use
+1. Open `Hypermarket Dashboard.pbix` in **Power BI Desktop**.  
+2. Explore each page interactively to analyze sales, orders, employee, and inventory data.  
+3. Optionally, run `Hypermarket.sql` in a SQL environment to recreate the database and connect Power BI to it.
 
-Stock
+---
 
-How to Use
-
-Download the .pbix file.
-
-Open it in Power BI Desktop.
-
-Explore the visuals interactively to analyze hypermarket operations.
-
-Skills Demonstrated
-
-SQL database design and data modeling
-
-Data insertion and management with realistic transactional data
-
-DAX measures and calculated columns in Power BI
-
-Interactive dashboard design and business performance analysis
-
-Created as part of a data analysis portfolio to showcase SQL and Power BI skills.
+## Skills Demonstrate
