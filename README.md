@@ -27,16 +27,16 @@ The dashboard provides actionable insights into business performance, branch ope
 ## Screenshots
 
 ### Sales
-![Sales](sales.png)
+![Sales](sales.pg)
 
 ### Orders
-![Orders](orders.png)
+![Orders](orders.pg)
 
 ### Employee
-![Employee](employee.png)
+![Employee](employee.pg)
 
 ### Stock
-![Stock](stock.png)
+![Stock](stock.pg)
 
 ### Relationships
 ![Relationships](relationships.png)
